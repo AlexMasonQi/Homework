@@ -34,7 +34,7 @@ int trimSpace(char *inbuf, char *outbuf)
 
 int main()
 {
-	char buf[] = "    abcdefghi  ";
+	char *buf = "     abcdefghi";
 	char outbuf[128] = { 0 };
 	int ret = 0;
 	printf("The source string is:%s\n", buf);
